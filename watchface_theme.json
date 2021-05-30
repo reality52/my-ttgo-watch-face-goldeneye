@@ -1,0 +1,127 @@
+{
+  "api_level": 3,
+  "dial": {
+    "enable": true,
+    "x_offset": 0,
+    "y_offset": 0
+  },
+  "label": [
+    {
+      "enable": true,
+      "type": "text",
+      "label": "MISSION STATUS:",
+      "font": "007watch8.font",
+      "font_color": "#3fd50b",
+      "align": "center",
+      "hide_interval": 0,
+      "x_offset": 15,
+      "y_offset": 68,
+      "x_size": 150,
+      "y_size": 10
+    },
+    {
+      "enable": true,
+      "type": "text",
+      "label": "INCOMPLETE",
+      "font": "007watch8.font",
+      "font_color": "#cc0000",
+      "align": "center",
+      "hide_interval": 2,
+      "x_offset": 85,
+      "y_offset": 68,
+      "x_size": 150,
+      "y_size": 10
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%H",
+      "font": "007watch52.font",
+      "font_color": "#3fd50b",
+      "align": "center",
+      "hide_interval": 0,
+      "x_offset": 25,
+      "y_offset": 75,
+      "x_size": 120,
+      "y_size": 52
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%M",
+      "font": "007watch52.font",
+      "font_color": "#3fd50b",
+      "align": "center",
+      "hide_interval": 0,
+      "x_offset": 98,
+      "y_offset": 75,
+      "x_size": 120,
+      "y_size": 52
+    },
+    {
+      "enable": true,
+      "type": "text",
+      "label": ":",
+      "font": "007watch52.font",
+      "font_color": "#3fd50b",
+      "align": "center",
+      "hide_interval": 1,
+      "x_offset": 90,
+      "y_offset": 75,
+      "x_size": 52,
+      "y_size": 52
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%d-%b-%y",
+      "font": "007watch18.font",
+      "font_color": "#3fd50b",
+      "align": "center",
+      "hide_interval": 0,
+      "x_offset": 20,
+      "y_offset": 40,
+      "x_size": 200,
+      "y_size": 40
+    },
+    {
+      "enable": true,
+      "type": "battery_percent",
+      "label": "%d%%",
+      "font": "007watch18.font",
+      "font_color": "#3fd50b",
+      "align": "left",
+      "hide_interval": 0,
+      "x_offset": 74,
+      "y_offset": 160,
+      "x_size": 60,
+      "y_size": 20
+    },
+    {
+      "enable": true,
+      "type": "bluetooth_messages",
+      "label": "messages:%d",
+      "font": "007watch18.font",
+      "font_color": "#3fd50b",
+      "align": "left",
+      "hide_interval": 0,
+      "x_offset": 60,
+      "y_offset": 120,
+      "x_size": 200,
+      "y_size": 20
+    },
+    {
+      "enable": true,
+      "type": "steps",
+      "label": "%d",
+      "font": "007watch18.font",
+      "font_color": "#3fd50b",
+      "align": "right",
+      "hide_interval": 0,
+      "x_offset": 18,
+      "y_offset": 130,
+      "x_size": 155,
+      "y_size": 40
+    }
+  ]
+}
